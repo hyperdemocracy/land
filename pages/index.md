@@ -5,7 +5,7 @@ title: Hyperdemocracy
 *Hello, "demos!"*
 
 Hyperdemocracy is a series of lessons, speeches, programs, and productions -
-made by coders engaged in the many problems of public policy.
+made by coders challenged by the many problems of public policy.
 
 Our opening session on July 24, 2023 had around a dozen audience members.
 Some came to learn new ML skills.
