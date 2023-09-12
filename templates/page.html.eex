@@ -1,1 +1,5 @@
-<%= @contents %>
+<article>
+  <div>
+    <%= @contents %>
+  </div>
+</article>
