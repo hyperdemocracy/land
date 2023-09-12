@@ -4,8 +4,8 @@
     <p>
       <%= @page.date %>
       <%= unless Enum.empty? @page.tags do %>
-        <span class="tags">
-          Tags:
+        <span class="labels">
+          Labels:
           <%= for t <- @page.tags do %>
             <a class="tag" href="<%= t.list_url %>"><%= t.name %></a>
           <% end %>

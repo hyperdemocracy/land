@@ -1,4 +1,8 @@
-<!--=====================================-->
-<!-- Override "includes/footer.html.eex" -->
-<!-- to customize your footer contents.  -->
-<!--=====================================-->
+<footer>
+  <p>
+  Compiled by <a href="https://github.com/Dalgona/Serum">Serum</a>,
+  running in <a href="https://elixir-lang.org">Elixir</a>.
+  <br/>
+  See and change <a href="https://github.com/hyperdemocracy/land">our code</a>.
+  </p>
+</footer>

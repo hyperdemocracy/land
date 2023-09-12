@@ -1,16 +1,18 @@
 ---
-title: Welcome
+title: Hyperdemocracy
 ---
 
-*Hello, world!*
+*Hello, "demos!"*
 
-If you are seeing this page through your web browser, you have successfully
-created a new Serum project.
+Hyperdemocracy is a series of lessons, speeches, programs, and productions -
+made by coders engaged in the many problems of public policy.
 
-## What's Next?
+Our opening session on July 24, 2023 had around a dozen audience members.
+Some came to learn new ML skills.
+Some came for more exposure to processes of legislation and group decision-making.
+All of us learned a bunch, and are eager to keep pushing the dialogue ahead.
 
-[The official Serum website](https://dalgona.github.io/Serum/docs) provides
-a comprehensive set of documentation that will help you customize this website
-further.
-
-Thank you for using Serum!
+You can help us build the curriculum; please use the `#hyperdemocracy` channel,
+in the [HacDC Discord](https://discord.gg/YTeBg2fEgX).
+All upcoming sessions are announced in our [remarks](/posts),
+alongside any other ideas to come to mind.
