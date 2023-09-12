@@ -6,12 +6,17 @@ body {
   color: #333;
   font-family: 'Open Sans', '.SFNSText-Regular', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
   font-size: 16px;
+  background-image: url(/assets/images/banner.png);
+  background-size: cover;
+  background-position-y: 50%;
 }
 
 a:link, a:active, a:visited { color: #4078c0; text-decoration: none; }
 a:hover { text-decoration: underline }
 
-header#top h1
+header#banner {
+}
+header#banner h1
 {
   margin: 0 0 0 -4px;
   font-family: 'Lato', '.SFNSText-Regular', 'Segoe UI', sans-serif;
@@ -19,16 +24,16 @@ header#top h1
   font-size: 80px;
 }
 
-header#top p
+header#banner p
 {
   margin: 0;
   font-weight: bold;
 }
 
-header#top a:link,
-header#top a:active,
-header#top a:visited,
-header#top a:hover
+header#banner a:link,
+header#banner a:active,
+header#banner a:visited,
+header#banner a:hover
 {
   color: #333;
   text-decoration: none;
@@ -39,8 +44,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav ul {
+  background: #cc8888aa;
+  border-radius: 1rem;
   margin: 1.5rem 0 1rem 0;
   padding: 0;
+  padding: 0.5em;
   list-style: none;
 }
 
@@ -96,13 +104,13 @@ a:active code {
   color: #4078c0;
 }
 
-#wrapper {
+#page {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 50px;
   width: 900px;
   min-height: 100vh;
-  background: white;
+  background: #ccccccbb;
 }
 
 article h1
@@ -294,17 +302,17 @@ ul.serum-toc li span.number {
     padding: 0;
   }
 
-  #wrapper {
+  #page {
     width: 100%;
     padding: 20px;
   }
 
-  header#top h1 {
+  header#banner h1 {
     margin: 0;
     font-size: 60px;
   }
 
-  header#top p {
+  header#banner p {
     font-size: 0.9rem;
   }
 

@@ -9,8 +9,8 @@
     <%= include "head-extras" %>
   </head>
   <body>
-    <div id="wrapper">
-      <header id="top"><%= include "banner" %></header>
+    <div id="page">
+      <%= include "banner" %>
       <nav><%= include "nav" %></nav>
       <hr>
       <main><%= @contents %></main>
