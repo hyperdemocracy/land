@@ -26,7 +26,8 @@ jobs:
 
     name: Build
     runs-on: ubuntu-latest
-
+    env:
+      MIX_ENV: prod
     steps:
     - uses: actions/checkout@v3
     - name: Setup Pages
