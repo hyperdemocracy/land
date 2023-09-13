@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Elixir: Serum Build
+name: Elixir - Serum Build
 
 on:
   push:
