@@ -1,6 +1,6 @@
 %{
-  site_name: "Hyperdemocracy 2023",
-  site_description: "How do the processes of democracy change, in the presence of machine language models?",
+  site_name: "Hyperdemocracy",
+  site_description: "Redifining governance in the age of AI.",
   date_format: "{WDfull}, {D} {Mshort} {YYYY}",
   base_url: "/",
   author: "John Doe",
