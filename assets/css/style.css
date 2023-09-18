@@ -1,11 +1,13 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:100,900|Open+Sans:400,700|Roboto+Mono:400,700';
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body {
   margin: 0;
   background: whitesmoke;
-  color: #333;
-  font-family: 'Open Sans', '.SFNSText-Regular', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
+  color: #baced7;
+  font-family: 'Mooli', '.SFNSText-Regular', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
   font-size: 16px;
+  font-weight: 400;
   background-image: url(/assets/images/banner.png);
   background-size: cover;
   background-position-y: 50%;
@@ -14,8 +16,6 @@ body {
 a:link, a:active, a:visited { color: #4078c0; text-decoration: none; }
 a:hover { text-decoration: underline }
 
-header#banner {
-}
 header#banner h1
 {
   margin: 0 0 0 -4px;
@@ -35,7 +35,7 @@ header#banner a:active,
 header#banner a:visited,
 header#banner a:hover
 {
-  color: #333;
+  color: #baced7;
   text-decoration: none;
 }
 
@@ -44,11 +44,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav ul {
-  background: #cc8888aa;
+  background: #efcdcd99;
   border-radius: 1rem;
   margin: 1.5rem 0 1rem 0;
-  padding: 0;
-  padding: 0.5em;
+  padding: 0.5em 1rem;
   list-style: none;
 }
 
@@ -80,7 +79,8 @@ footer p { margin: 0.5rem 0; }
 
 code {
   font-family: 'Roboto Mono', 'Menlo', 'Consolas', monospace;
-  color: #c04078;
+  color: #cd99b0;
+  font-size: 0.85rem;
 }
 
 pre code {
@@ -104,13 +104,16 @@ a:active code {
   color: #4078c0;
 }
 
+#background {
+  background: #101010a1;
+  width: 100vw;
+}
 #page {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 50px;
   width: 900px;
   min-height: 100vh;
-  background: #ccccccbb;
 }
 
 article h1

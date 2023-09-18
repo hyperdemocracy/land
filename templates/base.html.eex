@@ -9,6 +9,7 @@
     <%= include "head-extras" %>
   </head>
   <body>
+    <div id="background">
     <div id="page">
       <%= include "banner" %>
       <nav><%= include "nav" %></nav>
@@ -16,6 +17,7 @@
       <main><%= @contents %></main>
       <hr>
       <%= include "footer" %>
+    </div>
     </div>
 
     <script src="<%= asset "js/prism.js" %>"></script>

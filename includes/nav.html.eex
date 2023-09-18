@@ -16,6 +16,8 @@
   <%= for p <- @all_pages, p.group == "main-menu" do %>
     <li><a href="<%= p.url %>"><%= p.label %></a></li>
   <% end %>
-  <li><a href="<%= base "posts" %>">Remarks</a></li>
-  <li><a href="https://discord.gg/YTeBg2fEgX">Discord - run by HacDC</a>
+  <li><a href="<%= base() %>">Home</a></li>
+  <li><a href="<%= base "posts" %>">Announcements</a></li>
+  <li><a href="<%= page "applications" %>">Apps</a></li>
+  <li><a href="<%= page "organizers" %>">Organizers</a></li>
 </ul>
