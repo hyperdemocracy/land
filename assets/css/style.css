@@ -13,7 +13,7 @@ body {
   background-position-y: 50%;
 }
 
-a:link, a:active, a:visited { color: #4078c0; text-decoration: none; }
+a:link, a:active, a:visited { color: #65a6fb; text-decoration: none; }
 a:hover { text-decoration: underline }
 
 header#banner h1
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav ul {
-  background: #efcdcd99;
+  background: #88484899;
   border-radius: 1rem;
   margin: 1.5rem 0 1rem 0;
   padding: 0.5em 1rem;
@@ -105,7 +105,7 @@ a:active code {
 }
 
 #background {
-  background: #101010a1;
+  background: #101010b8;
   width: 100vw;
 }
 #page {
