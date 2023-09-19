@@ -5,7 +5,7 @@ body {
   margin: 0;
   background: whitesmoke;
   color: #baced7;
-  font-family: 'Mooli', '.SFNSText-Regular', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
+  font-family: 'Mooli', 'Segoe UI', 'Helvetica', 'Lucida Grande', 'Tahoma', 'Yu Gothic UI', 'Malgun Gothic', sans-serif;
   font-size: 16px;
   font-weight: 400;
   background-image: url(/assets/images/banner.png);
@@ -19,7 +19,7 @@ a:hover { text-decoration: underline }
 header#banner h1
 {
   margin: 0 0 0 -4px;
-  font-family: 'Lato', '.SFNSText-Regular', 'Segoe UI', sans-serif;
+  font-family: 'Lato', 'Segoe UI', sans-serif;
   font-weight: 100;
   font-size: 80px;
 }
