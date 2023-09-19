@@ -331,3 +331,9 @@ ul.serum-toc li span.number {
   span.tags { display: block; }
   span.tags:before { content: ''; }
 }
+
+@media screen and (max-width: 499px) {
+  header#banner h1 {
+    font-size: 40px;
+  }
+}
