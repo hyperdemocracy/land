@@ -1,0 +1,95 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Hyperdemocracy - Hyperdemocracy</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    
+<!--==========================================-->
+<!-- Override "includes/head-extras.html.eex" -->
+<!-- to add more tags inside this <head> tag. -->
+<!--==========================================-->
+
+  </head>
+  <body>
+    <div id="background">
+    <div id="page">
+      
+<header id="banner">
+  <h1><a href="/">Hyperdemocracy</a></h1>
+  <p>How does machine learning change the process of democracy?</p>
+</header>
+
+      <nav>
+<!--=========================================================-->
+<!-- Override "includes/nav.html.eex"                        -->
+<!-- to customize the navigation area.                       -->
+<!--                                                         -->
+<!-- Example:                                                -->
+<!-- <ul>                                                    -->
+<!--   <%= for p <- @all_pages, p.group == "main-menu" do %> -->
+<!--     <li><a href="<%= p.url %>"><%= p.label %></a></li>  -->
+<!--   <% end %>                                             -->
+<!--   <li><a href="<%= base "posts" %>">Posts</a></li>      -->
+<!-- </ul>                                                   -->
+<!--=========================================================-->
+
+<ul>
+  
+  <li><a href="/">Home</a></li>
+  <li><a href="/posts">Announcements</a></li>
+  <li><a href="/applications.html">Apps</a></li>
+  <li><a href="/organizers.html">Organizers</a></li>
+</ul>
+</nav>
+      <hr>
+      <main><article><div><p>Hyperdemocracy is a series of lessons, speeches, programs, and productions -
+made by coders challenged by the many problems of public policy.</p><p><a href="/posts/2023-06-24-round-1.html" title="">Our opening session</a> on July 24, 2023 had around a dozen audience members.
+Some came to learn new ML skills.
+Some came for more exposure to processes of legislation and group decision-making.
+All of us learned a bunch, and are eager to keep pushing the dialogue ahead.</p><p>Hyperdemocracy is online here:</p><ul><li><a href="https://huggingface.co/hyperdemocracy">Huggingface</a></li><li><a href="https://github.com/hyperdemocracy">GitHub</a></li><li>HacDC’s <a href="https://discordapp.com/channels/1030677554929090611/1119071775007981648">#hyperdemocracy</a> Discord channel
+</li></ul><p>Co-produced by:</p><ul><li><a href="https://hacdc.org">HacDC</a></li><li><a href="https://assembled.app">Assemble Company</a></li></ul></div></article></main>
+      <hr>
+      
+<footer>
+  <p>
+  Compiled by <a href="https://github.com/Dalgona/Serum">Serum</a>,
+  running in <a href="https://elixir-lang.org">Elixir</a>.
+  <br/>
+  See and change <a href="https://github.com/hyperdemocracy/land">our code</a>.
+  </p>
+</footer>
+
+    </div>
+    </div>
+
+    <script src="/assets/js/prism.js"></script>
+    
+  </body>
+</html>
+<script>
+const ws_url = "ws://" + location.host + "/serum_live_reloader";
+var ws;
+
+connect();
+
+function connect() {
+  ws = new WebSocket(ws_url);
+  ws.onmessage = onMessage;
+  ws.onclose = onClose;
+}
+
+function onMessage(e) {
+  if (e.data === "reload") {
+    location.reload();
+  }
+}
+
+function onClose(e) {
+  console.warn("WebSocket disconnected from server. Reconnecting in 10 seconds.");
+  setTimeout(connect, 10000)
+}
+</script>

@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Round 1 Summary - Hyperdemocracy</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    
+<!--==========================================-->
+<!-- Override "includes/head-extras.html.eex" -->
+<!-- to add more tags inside this <head> tag. -->
+<!--==========================================-->
+
+  </head>
+  <body>
+    <div id="background">
+    <div id="page">
+      
+<header id="banner">
+  <h1><a href="/">Hyperdemocracy</a></h1>
+  <p>How does machine learning change the process of democracy?</p>
+</header>
+
+      <nav>
+<!--=========================================================-->
+<!-- Override "includes/nav.html.eex"                        -->
+<!-- to customize the navigation area.                       -->
+<!--                                                         -->
+<!-- Example:                                                -->
+<!-- <ul>                                                    -->
+<!--   <%= for p <- @all_pages, p.group == "main-menu" do %> -->
+<!--     <li><a href="<%= p.url %>"><%= p.label %></a></li>  -->
+<!--   <% end %>                                             -->
+<!--   <li><a href="<%= base "posts" %>">Posts</a></li>      -->
+<!-- </ul>                                                   -->
+<!--=========================================================-->
+
+<ul>
+  
+  <li><a href="/">Home</a></li>
+  <li><a href="/posts">Announcements</a></li>
+  <li><a href="/applications.html">Apps</a></li>
+  <li><a href="/organizers.html">Organizers</a></li>
+</ul>
+</nav>
+      <hr>
+      <main><article class="post"><header><h1 id="round-1-summary">Round 1 Summary</h1><p>
+      Saturday, 24 Jun 2023
+      
+        <span class="labels">
+          Labels:
+          
+            <a class="tag" href="/tags/round 1">round 1</a></span></p></header><div><p>Round one had been a basic lesson in language models,
+using this year’s congressional legislation as our collection
+of open-source language. Our audience members,
+each one skilled in coding already,
+heard some quick speeches describing the mechanisms of LLMs,
+and an exposé of the public policy research landscape.</p><p>Our main aim had been to share <a href="https://github.com/hyperdemocracy/hyperdemocracy-workshop-2023-06/blob/main/hyper_democracy.ipynb" title="">sample code in Python</a>
+(<a href="https://colab.research.google.com/github/hyperdemocracy/hyperdemocracy-workshop-2023-06/blob/main/hyper_democracy.ipynb" title="">runnable in the cloud</a>),
+making use of <a href="https://www.langchain.com/">LangChain</a> to access OpenAI’s models.
+Our example builds up a Question &amp; Answer program
+based on legislation produced by the US Congress in 2023.</p><p>This round, our <a href="/organizers">organizers</a> plan to bring in more speakers,
+to discuss some of the ethical quandries that can be caused by relying too much on ML models.
+This is going to also be a chance to look beyond federal legislation,
+and to bring in more sources from regional or non-legislative legal sources.</p></div></article></main>
+      <hr>
+      
+<footer>
+  <p>
+  Compiled by <a href="https://github.com/Dalgona/Serum">Serum</a>,
+  running in <a href="https://elixir-lang.org">Elixir</a>.
+  <br/>
+  See and change <a href="https://github.com/hyperdemocracy/land">our code</a>.
+  </p>
+</footer>
+
+    </div>
+    </div>
+
+    <script src="/assets/js/prism.js"></script>
+    
+  </body>
+</html>
+<script>
+const ws_url = "ws://" + location.host + "/serum_live_reloader";
+var ws;
+
+connect();
+
+function connect() {
+  ws = new WebSocket(ws_url);
+  ws.onmessage = onMessage;
+  ws.onclose = onClose;
+}
+
+function onMessage(e) {
+  if (e.data === "reload") {
+    location.reload();
+  }
+}
+
+function onClose(e) {
+  console.warn("WebSocket disconnected from server. Reconnecting in 10 seconds.");
+  setTimeout(connect, 10000)
+}
+</script>
